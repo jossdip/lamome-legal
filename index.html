@@ -84,7 +84,7 @@ a:focus-visible{outline:2px solid var(--terracotta);outline-offset:3px}
     <h1>Politique de confidentialité</h1>
     <p>Comment l'application Le Cercle La Môme collecte, utilise et protège vos
     données personnelles.</p>
-    <p class="updated">Dernière mise à jour — septembre 2026</p>
+    <p class="updated">Dernière mise à jour — octobre 2026</p>
   </div>
 </header>
 
@@ -121,14 +121,39 @@ a:focus-visible{outline:2px solid var(--terracotta);outline-offset:3px}
         </thead>
         <tbody>
           <tr>
-            <td>Adresse e-mail</td>
-            <td>Vous, à l'inscription</td>
-            <td>Créer votre compte et vous connecter par code à usage unique</td>
+            <td>Prénom et nom</td>
+            <td>Vous, à l'ouverture de votre carte</td>
+            <td>Vous accueillir et personnaliser votre carte de membre</td>
           </tr>
           <tr>
-            <td>Prénom et nom</td>
-            <td>Vous, à l'inscription</td>
-            <td>Vous accueillir et personnaliser votre carte de membre</td>
+            <td>Numéro de mobile</td>
+            <td>Vous, à l'ouverture de votre carte</td>
+            <td>Vous identifier et vous connecter à l'application, vous transmettre votre code d'activation</td>
+          </tr>
+          <tr>
+            <td>Adresse e-mail</td>
+            <td>Vous, à l'ouverture de votre carte</td>
+            <td>Vous joindre au sujet de votre carte et de vos demandes</td>
+          </tr>
+          <tr>
+            <td>Adresse postale et pays de résidence</td>
+            <td>Vous, à l'ouverture de votre carte</td>
+            <td>Vous expédier votre carte gravée</td>
+          </tr>
+          <tr>
+            <td>Date de naissance</td>
+            <td>Vous, facultatif</td>
+            <td>Marquer votre anniversaire</td>
+          </tr>
+          <tr>
+            <td>Consentements et leur date</td>
+            <td>Vous, sur votre téléphone</td>
+            <td>Prouver votre accord et le respecter</td>
+          </tr>
+          <tr>
+            <td>Maison et hôte qui ont ouvert votre carte, notes de service</td>
+            <td>Nos équipes</td>
+            <td>Vous recevoir et suivre le programme de fidélité</td>
           </tr>
           <tr>
             <td>Préférences de table — placement, boisson, note pour le maître d'hôtel</td>
@@ -171,8 +196,9 @@ a:focus-visible{outline:2px solid var(--terracotta);outline-offset:3px}
       <li><strong>Elles ne sont traitées qu'avec votre consentement explicite</strong>,
       donné au moment où vous les saisissez, et retirable à tout instant en les
       effaçant depuis votre profil.</li>
-      <li><strong>Elles ne sont transmises qu'aux équipes de salle et de cuisine</strong>
-      de la maison où vous êtes attendu, et pour cette seule venue.</li>
+      <li><strong>Elles ne sont accessibles qu'aux équipes habilitées du groupe</strong>
+      (salle, concierge, direction), pour préparer votre venue. Si vous écrivez au
+      concierge, le résumé de vos préférences lui est transmis (voir la section 6).</li>
       <li><strong>Elles ne servent jamais</strong> à des fins commerciales,
       publicitaires ou statistiques.</li>
     </ul>
@@ -199,14 +225,21 @@ a:focus-visible{outline:2px solid var(--terracotta);outline-offset:3px}
     <p>Vos données ne sont ni vendues, ni louées, ni cédées à des tiers à des
     fins publicitaires. Elles sont accessibles à :</p>
     <ul>
-      <li><strong>Les équipes de La Môme Groupe</strong> — uniquement les
-      personnes qui doivent vous accueillir ou traiter votre demande.</li>
+      <li><strong>Les équipes de La Môme Groupe</strong> disposant d'un compte
+      nominatif — hôtes, concierges et direction — pour vous accueillir et traiter
+      vos demandes.</li>
       <li><strong>Supabase</strong>, notre hébergeur de base de données et
       d'authentification, agissant comme sous-traitant.</li>
       <li><strong>Anthropic</strong>, qui fait fonctionner le concierge
       conversationnel de l'application (voir la section suivante).</li>
       <li><strong>Apple</strong>, pour la distribution de l'application, selon
       ses propres conditions.</li>
+      <li><strong>GitHub</strong>, qui héberge la page web sur laquelle vous remplissez
+      votre fiche et cette politique.</li>
+      <li><strong>La Base Adresse Nationale</strong> (service public français) et
+      <strong>Photon</strong> (Komoot, service fondé sur OpenStreetMap) : quand vous
+      cherchez votre adresse sur cette page, le texte que vous tapez dans ce champ de
+      recherche, et lui seul, leur est envoyé pour vous proposer des adresses.</li>
     </ul>
   </section>
 
@@ -241,7 +274,7 @@ a:focus-visible{outline:2px solid var(--terracotta);outline-offset:3px}
           <tr><td>Compte et profil</td><td>Tant que votre compte existe</td></tr>
           <tr><td>Compte inactif</td><td>Supprimé après 3 ans sans connexion</td></tr>
           <tr><td>Historique de visites et points</td><td>3 ans à compter de la dernière visite</td></tr>
-          <tr><td>Messages au concierge</td><td>12 mois</td></tr>
+          <tr><td>Conversation avec le concierge</td><td>Sur votre téléphone, jusqu'à la suppression de votre compte ; nous ne conservons que les demandes qui en résultent</td></tr>
           <tr><td>Allergies et préférences</td><td>Jusqu'à ce que vous les effaciez</td></tr>
         </tbody>
       </table>
@@ -280,8 +313,9 @@ a:focus-visible{outline:2px solid var(--terracotta);outline-offset:3px}
       la base par des règles de sécurité par ligne.</li>
       <li>L'application ne contient aucune clé d'accès à nos services : tout
       appel sensible passe par nos serveurs.</li>
-      <li>Aucun mot de passe n'est stocké — la connexion se fait par code à
-      usage unique envoyé par e-mail.</li>
+      <li>Vous n'avez pas de mot de passe : vous vous connectez avec votre numéro de
+      mobile et un code d'activation, conservé uniquement sous forme chiffrée, ou par
+      un lien à usage unique.</li>
     </ul>
   </section>
 
